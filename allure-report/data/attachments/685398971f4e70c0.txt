@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#onetrust-accept-btn-handler\"}\n  (Session info: chrome=124.0.6367.202)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF638081512+60802]\n\t(No symbol) [0x00007FF637FFAC12]\n\t(No symbol) [0x00007FF637EB7CE4]\n\t(No symbol) [0x00007FF637F06D4D]\n\t(No symbol) [0x00007FF637F06E1C]\n\t(No symbol) [0x00007FF637F4CE37]\n\t(No symbol) [0x00007FF637F2ABBF]\n\t(No symbol) [0x00007FF637F4A224]\n\t(No symbol) [0x00007FF637F2A923]\n\t(No symbol) [0x00007FF637EF8FEC]\n\t(No symbol) [0x00007FF637EF9C21]\n\tGetHandleVerifier [0x00007FF6383841AD+3217949]\n\tGetHandleVerifier [0x00007FF6383C6147+3488183]\n\tGetHandleVerifier [0x00007FF6383BF0CF+3459391]\n\tGetHandleVerifier [0x00007FF63813B8D6+823622]\n\t(No symbol) [0x00007FF638005FAF]\n\t(No symbol) [0x00007FF638000ED4]\n\t(No symbol) [0x00007FF638001062]\n\t(No symbol) [0x00007FF637FF18B4]\n\tBaseThreadInitThunk [0x00007FFE5479257D+29]\n\tRtlUserThreadStart [0x00007FFE553AAA48+40]\n"
+}

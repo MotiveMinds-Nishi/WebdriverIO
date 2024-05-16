@@ -8,12 +8,8 @@ describe('Demo Test', () => {
         await browser.$("main span.css-1lfoa71").click()
         await expect(browser).toHaveUrl("https://www.polestar.com/global/")
         await $('button[type="button"]').click()
-
         await $('#165013919').click()
-
-        
         await $("a[id='165013919'] span:nth-child(1)").click()
-
         await browser.$("aria/Discover Polestar 2").click()
         await expect(browser).toHaveUrl("https://www.polestar.com/global/polestar-2/")
         await $('button[type="button"]').click()

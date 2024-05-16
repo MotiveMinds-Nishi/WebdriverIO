@@ -4,8 +4,8 @@ import {faker} from "@faker-js/faker";
 
 describe(" PUT API request Tests", async () => {
     it("Sould be able to Update the user Details", async () => {
-        const randomName = faker.name.fullName();
-        const randomJobTitle = faker.name.jobTitle();
+        const randomName = faker.person.fullName();
+        const randomJobTitle = faker.person.jobTitle();
         const res = await axios.put('https://reqres.in/api/users/2',
             {
                 "name": randomName,

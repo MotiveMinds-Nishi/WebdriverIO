@@ -11,6 +11,7 @@ describe('Demo Test', () => {
 
         await $('#165013919').click()
 
+        
         await $("a[id='165013919'] span:nth-child(1)").click()
 
         await browser.$("aria/Discover Polestar 2").click()
